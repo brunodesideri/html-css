@@ -65,6 +65,7 @@ section > p {
 section.normal {
     background-color: white;
     color: black;
+    
 }
 
 section.imagem {
@@ -72,13 +73,15 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.512);
     background-size: cover;  
-    background-attachment: fixed;  
+    background-attachment: fixed;
+    
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
     text-shadow: 1.5px 1.5px 0px black;
     
 
